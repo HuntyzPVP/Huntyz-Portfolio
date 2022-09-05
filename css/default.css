@@ -6,18 +6,31 @@
     font-family: 'Quicksand', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
 }
 
-.max-width {
-    max-width: 1780px;
-    padding: 0 80px;
-    margin: auto;
+:root{
+    --bg-color: #ffffff;
+    --text-color: #fff;
+    --secondary-color: #a09dab;
+    --main-color: #cbe6ef;
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
 }
 
-/* Media Query */
-
-@media (max-width: 947px) {
-    .max-width {
-        padding: 0 50px;
-    }
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
 }
+
+section {
+    padding: 100px 18%;
+}
+
+span {
+    color: var(--main-color);
+}
+
+
